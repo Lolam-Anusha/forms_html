@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+  <div>
+    <form action="submit1.html">
+        <h1>Login form</h1>
+        <label for="email">Email/Username</label>
+        <input type="email" placeholder="Username" id="email" required><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password" required><br><br>
+
+        <input type="checkbox"><span>Remember Me</span><br><br>
+
+        <input type="submit">
+        <hr>
+    </form>
+  </div>
+  <div>
+    <form>
+        <h1>Contact Us</h1>
+        <input type="text" placeholder="Full Name" required><br><br>
+        <input type="email" placeholder="Email" required><br><br>
+        <input type="tel" placeholder="Phone number" required><br><br>
+        <input type="text" placeholder="Website"><br><br>
+        <input type="text" placeholder="Message">
+        <hr>
+    </form> 
+  </div>
+  <div>
+    <form>
+        <h1>Fill out this form</h1>
+        <label for="name">First Name</label>
+        <input type="text" placeholder="First Name" id=name" required><br><br>
+
+        <label for="Name">Last Name</label>
+        <input type="text" placeholder="Last Name" id="Name" required><br><br>
+
+        <label for="email">E-Mail</label>
+        <input type="email" placeholder="E-Mail Address" id="email" required><br><br>
+
+        <label for="phonenumber">Phone#</label>
+        <input type="tel" placeholder="+91" id="phone number" required><br><br>
+
+        <label for="address">Address</label>
+        <input type="text" placeholder="Address" id="address"><br><br>
+
+        <label>State</label>
+        <input list="states" placeholder="please select your state">
+        <datalist id="states">
+          <option>Telangana</option>
+          <option>Andhra pradesh</option>
+          <option>Uttar pradesh</option>
+          <option>Tamilnadu</option>
+          <option>Gujarat</option>
+          <option>Maharashtra</option>
+        </datalist><br><br>
+
+        <label for="code">Zip Code</label>
+        <input type="number" placeholder="Zip Code" id="code"><br><br>
+
+        <label for="text">website or domain name</label>
+        <input type="text" placeholder="website or domain name" id="text"><br><br>        
+      
+        <label>Do you have hosting</label>
+        <input type="radio" name="hosting"><span>Yes</span>
+        <input type="radio" name="hosting"><span>No</span>
+      </form>
+    </div>
+</body>
+</html>
